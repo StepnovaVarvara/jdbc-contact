@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:8080/contacts
+    username: postgres
+    password: texttext
+    hikari:
+      schema: contacts_schema
