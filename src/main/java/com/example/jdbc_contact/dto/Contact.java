@@ -3,7 +3,6 @@ package com.example.jdbc_contact.dto;
 import lombok.Data;
 import lombok.experimental.FieldNameConstants;
 
-import java.util.UUID;
 
 @Data
 @FieldNameConstants

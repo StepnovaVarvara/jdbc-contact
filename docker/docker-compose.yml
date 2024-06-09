@@ -4,7 +4,7 @@ services:
   postgres:
     image: postgres:12.3
     ports:
-      - "8080:5433"
+      - "5433:5432"
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=texttext

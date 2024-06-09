@@ -1,12 +1,10 @@
-package com.example.jdbc_contact.repository;
-
+package com.example.jdbc_contact.service;
 
 import com.example.jdbc_contact.dto.Contact;
 
 import java.util.List;
 
-public interface ContactRepository {
-
+public interface ContactService {
     List<Contact> findAll();
     Contact findById(Long id);
     Contact save(Contact contact);

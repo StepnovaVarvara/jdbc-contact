@@ -16,6 +16,6 @@ public class ContactRowMapper implements RowMapper<Contact> {
         contact.setEmail(rs.getString(Contact.Fields.email));
         contact.setPhone(rs.getString(Contact.Fields.phone));
 
-        return null;
+        return contact;
     }
 }
